@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_color_lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="当前颜色："
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/iv_color"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_color_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="颜色" />
+
+        <com.ricky.color_picker.ui.ColorWheelPickerView
+            android:id="@+id/color_picker_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginVertical="20dp" />
+
+        <TextView
+            android:id="@+id/tv_color_ring_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="色环图" />
+
+        <com.ricky.color_picker.ui.ColorRingPickerView
+            android:id="@+id/color_ring_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginVertical="20dp" />
+
+        <TextView
+            android:id="@+id/tv_color_deep_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="深度" />
+
+        <com.ricky.color_picker.ui.ColorSlideView
+            android:id="@+id/color_slide_view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp" />
+
+        <TextView
+            android:id="@+id/tv_color_alpha_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="透明度" />
+
+        <com.ricky.color_picker.ui.AlphaSlideView
+            android:id="@+id/alpha_slide_view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
