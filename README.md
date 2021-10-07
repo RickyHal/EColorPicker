@@ -1,8 +1,28 @@
 # EColorPicker
 一个Android颜色选择套件，具体效果见下图。
 
+English | [中文](/README.zh.md)
+[![](https://jitpack.io/v/RickyHal/EPermission.svg)](https://jitpack.io/#RickyHal/EPermission)
+
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0234927fca7c48b9ba5240632a5d12ef~tplv-k3u1fbpfcp-watermark.image" width="30%"/>
 # 依赖配置
+
+项目 build.gradle
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://www.jitpack.io' }
+        }
+}
+```
+
+模块 build.gradle
+```groovy
+dependencies {
+    implementation 'com.github.RickyHal:EColorPicker:$latest_version'
+}
+```
 
 # 使用方式
 
