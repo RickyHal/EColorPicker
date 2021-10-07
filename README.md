@@ -1,7 +1,7 @@
 # EColorPicker
 一个Android颜色选择套件，具体效果见下图。
 
-![Screenshot_2021-10-07-17-05-35-068_com.ricky.ecol.jpg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0234927fca7c48b9ba5240632a5d12ef~tplv-k3u1fbpfcp-watermark.image?)
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0234927fca7c48b9ba5240632a5d12ef~tplv-k3u1fbpfcp-watermark.image" width="30%"/>
 # 依赖配置
 
 # 使用方式
