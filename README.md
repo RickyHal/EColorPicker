@@ -1,6 +1,7 @@
 # EColorPicker
 一个Android颜色选择套件，具体效果见下图。
-![device-2021-09-26-180814.gif](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6d040b6378fb46379469ee6b937a1815~tplv-k3u1fbpfcp-watermark.image?)
+
+![Screenshot_2021-10-07-17-05-35-068_com.ricky.ecol.jpg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0234927fca7c48b9ba5240632a5d12ef~tplv-k3u1fbpfcp-watermark.image?)
 # 依赖配置
 
 # 使用方式
@@ -188,21 +189,3 @@ fun hex2Color(hex: String): Int?
 // 是否是合法的16进制颜色字符串
 fun isValidHex(color: String): Boolean 
 ```
-
-## License
-
-> ```
-> Copyright 2021 RickyHal
->
-> Licensed under the Apache License, Version 2.0 (the "License");
-> you may not use this file except in compliance with the License.
-> You may obtain a copy of the License at
->
->    http://www.apache.org/licenses/LICENSE-2.0
->
-> Unless required by applicable law or agreed to in writing, software
-> distributed under the License is distributed on an "AS IS" BASIS,
-> WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-> See the License for the specific language governing permissions and
-> limitations under the License.
-> ```
